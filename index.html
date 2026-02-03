@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>lizconlan.com</title>
+    <style type="text/css" media="screen, projector">
+      body{margin:0;padding:0;font-family:Georgia,serif;line-height:1.48em;background:#DFDCCB;color:#111;font-size:18.5px}
+      header{font-size:0.9em;display:block;top:0;left:0;width:100%;background:#C4BFA0;color:#666;margin:0;min-height:2.5em;border-bottom:1px solid #AAA;padding-top:0.8em;}
+      sup {position:relative}
+      div#header {max-width:650px;margin:0 auto;position:relative}
+      nav {display:block;position:absolute;top:0;right: 0}
+      header h1 {display:inline;font-weight:normal;font-family:Georgia,serif;font-size:1.3em;color:#AAA}
+      header ul {list-style:none;margin:0;text-align:right}
+      header ul li {display:inline;margin-top:0.5em;color:#666;padding-right:3em}
+      header a {text-decoration:none;color:#666}
+      header a.current {color:#0F0E09;}
+      header a:hover {text-decoration:underline;color:crimson}
+      #main {margin:1em auto;text-rendering:optimizeLegibility;max-width:650px;}
+      footer{text-align:center;font-weight:normal;font-family:Verdana,Arial,sans-serif;color:#666;display:block;padding-top:0.8em;margin-top:4em;margin-bottom:1.4em;border-top:1px solid #AAA;font-size:0.75em}
+      code{font-size:1.2em}
+      h1 a{text-decoration:none;color:#666}
+      h1 a:hover{text-decoration:underline;color:crimson}
+      h2{margin-top:1.5em;text-indent:-0.2em;}
+      h3{text-indent:-0.2em}
+      p ul{list-style:none;margin-left:0;padding-left:2em}
+      p ul li{padding: 0.5em 0;text-indent:-1em}
+      ol#footnotes{margin-top:2.5em;border-top:1px solid #888;padding-top:2em;font-size:0.85em;margin-left:1em;margin-right:1em;padding-left:0}
+      ol#footnotes li{margin-left:0;padding-left:0.5em;padding-right:1em}
+      ol#footnotes li a{text-decoration:none}
+      ol#footnotes li a.return{color:crimson}
+      ol#footnotes li a.return:hover{color:#111;font-weight:bold}
+      sup a{color:crimson;text-decoration:none;font-weight:bold;padding:0 0.3em}
+      sup a:hover{color:#666}
+      div.intro>p:first-of-type:first-letter{font-size:270%;font-weight:bold;float:left;margin-top:0.26em;margin-right:0.1em;color:#666}
+      article{display:block;position:relative;padding:0.5em 0.8em}
+      span.post_date{display:block;position:absolute;text-align:center;top:-3.4em;right:0.5em;font-size:0.85em;color:#666}
+    </style>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17686673-4']);
+      _gaq.push(['_setDomainName', '.lizconlan.com']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <h1><a class="current" href="http://lizconlan.com">lizconlan.com</a></h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="http://blog.lizconlan.com">blog</a></h1>
+            </li>
+            <li>
+              <a href="http://blog.lizconlan.com/sandbox/">sandbox</a>
+            </li>
+            <li>
+              <a href="https://github.com/lizconlan">code</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="main">
+      <article>
+        <div class='intro'>
+          <p>My name is Liz and I am a software engineer</p>
+        </div>
+
+        <br>
+
+        <p>I've worked various tech jobs over the years from <a href="http://en.wikipedia.org/wiki/Cobol">COBOL</a> on <a href="http://en.wikipedia.org/wiki/HP_Multi-Programming_Executive">HP3000 MPE</a> back in the late '90s to web development in <a href="http://www.ruby-lang.org">Ruby</a> (both <a href="http://rubyonrails.org">on Rails</a> and in <a href="http://www.sinatrarb.com">Sinatra</a>) for the UK Parliament via the usual alphabet soup of VBScript, PHP, SQL, NoSQL, ASP.Net and some kind of footling about with <a href="http://en.wikipedia.org/wiki/OpenVMS">Open VMS</a> on the <a href="http://en.wikipedia.org/wiki/DEC_Alpha">Alpha platform</a>, the details of which, frankly, escape me.</p>
+        <p>While I was working for Misco, we<sup id="fn1"><a href="#footnote-1">1</a></sup> built our own server stack with mirrored servers, heartbeats, failovers, fibre channel disk arrays and all sorts of shiny toys. That was fun. The first machine arrived without its rackmount kit<sup id="fn2"><a href="#footnote-2">2</a></sup> so we did what any normal disgruntled customer would do - went to B&amp;Q for a pile of bolts and wing nuts and narrowly avoided buying a Dremel. Happy days.</p>
+        <p>More recently, I've worked for the UK Parliament, the not for profit civic participation group mySociety and legal entity specialists OpenCorporates.</p>
+
+        <p>Stuff what I wrote (and is available on the public web) includes:
+          <ul>
+            <li><a href="http://favtagger.com">Favtagger</a> - basically a search and rescue resource to help me cope with my Twitter favorites habit (3,500-odd<sup id="fn3"><a href="#footnote-3">3</a></sup> things people have said, and counting; I should probably seek help)</li>
+            <li><a href="https://scraperwiki.com/profiles/lizconlan/">Various Scraperwiki scripts</a> - a variety of scrapers for a variety of purposes in a variety of languages. All of them seemed like a good idea at the time</li>
+            <li><a href="http://twitter.com/robotbrook">@RobotBrook</a> - a surprisingly entertaining little chap who stepped up to try to fill the gap left by the real <a href="http://twitter.com/robertbrook">@RobertBrook</a> taking an extended Twitter holiday. For the technically inclined, <a href="http://blog.lizconlan.com/the-year-of-the-robot.html">here be (slight) spoilers</a></li>
+            <li><a href="http://hansard.millbanksystems.com">Historic Hansard</a> (although I can only take a tiny bit of the credit for this one) - a constant source of joy and pain when unexpectedly pointed back to it as a reference source for something I'm researching (my favourites were the Open University and the British Library)</li>
+          </ul>
+
+          You can peer at the source code for most of my recent<sup id="fn4"><a href="#footnote-4">4</a></sup> projects on <a href="http://code.lizconlan.com">my portfolio</a>; I used to own <code>programming.by</code> but it was expensive and not as much fun as the dream version in my head so I let the domain lapse.
+        </p>
+
+        <p>If you like largely tech-based waffling, <a href="http://blog.lizconlan.com">I occasionally blog about stuff on here</a> (although I should probably warn you about my recent laptop renovation habit) and even more occasionally for work purposes over at <a href="http://blog.millbanksystems.com">Millbank Systems</a>.</p>
+
+        <p>Thanks to the Open University, I hold a <a href="http://web.archive.org/web/20090903182127/http://www3.open.ac.uk/study/undergraduate/qualification/B13.htm">tech-based BSc</a> so I can call myself BSc (Hons) IT & Comp (Open), or even <a href="http://web.archive.org/web/20090905175323/http://www3.open.ac.uk/study/undergraduate/qualification/C39.htm">Cert Web Apps (Open)</a> should the mood take me.</p>
+
+        <div>
+          <ol id="footnotes">
+            <li id="footnote-1">That's "we" as in "the Systemax EU dev team", anything else would be weird <a href="#fn1">&larrhk;</a></li>
+            <li id="footnote-2">I should point out that this was before parent company Systemax moved into the server market, we ordered our initial test kit in from someone better known for making motherboards <a href="#fn2">&larrhk;</a></li>
+            <li id="footnote-3">hmmm, that would work equally well without the dash <a href="#fn3">&larrhk;</a></li>
+            <li id="footnote-4">i.e. "since late 2008"<a href="#fn4">&larrhk;</a></li>
+        </div>
+      </article>
+      <footer>
+        &copy 2012 Liz Conlan
+      </footer>
+    </div>
+  </body>
+</html>
