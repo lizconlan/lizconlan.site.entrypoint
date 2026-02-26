@@ -5,7 +5,7 @@ body {
   line-height:1.48em;
   background:#DFDCCB;
   color:#111;
-  font-size:18.5px
+  font-size:18px
 }
 
 header {
@@ -71,7 +71,7 @@ header a.current {
 
 header a:hover {
   text-decoration:underline;
-  color:crimson
+  color:darkred
 }
 
 #main {
@@ -127,13 +127,21 @@ h4 {
 }
 
 div.intro>p:first-of-type:first-letter {
-  font-size:270%;
+  font-size:300%;
   font-weight:bold;
   float:left;
   line-height: 1;
   margin-top: -1px;
   margin-right:0.1em;
   color:#666
+}
+
+div.intro {
+  margin-bottom: 1.8em;
+}
+
+div.intro>p:first-of-type {
+  margin-bottom: 1px;
 }
 
 article {
@@ -156,6 +164,7 @@ pre code {
   border: 1px solid #aaa;
   padding: 6px 10px;
   word-wrap: break-word;
+  font-size: 0.75em;
 }
 
 p code {
@@ -184,7 +193,7 @@ span.reading_time {
 }
 
 sup a {
-  color:crimson;
+  color:darkred;
   text-decoration:none;
   font-weight:bold;
   padding:0 0.3em
@@ -215,7 +224,7 @@ ol#footnotes li a {
 }
 
 ol#footnotes li a.return {
-  color:crimson
+  color:darkred
 }
 
 ol#footnotes li a.return:hover {
